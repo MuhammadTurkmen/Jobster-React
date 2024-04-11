@@ -48,6 +48,9 @@ const Wrapper = styled.main`
       color: var(--primary-500);
     }
   }
+  p {
+    color: var(--gray-600);
+  }
 `;
 
 export default Landing;
