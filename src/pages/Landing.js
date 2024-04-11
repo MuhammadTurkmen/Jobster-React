@@ -8,6 +8,11 @@ const Landing = () => {
       <nav>
         <img src={logo} alt="jobster logo" className="logo" />
       </nav>
+      <div className="container page">
+        {/* info */}
+        <div className="info"></div>
+        <img src={main} alt="job hunt" className="img main-img" />
+      </div>
     </main>
   );
 };
