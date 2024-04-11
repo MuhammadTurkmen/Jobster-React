@@ -10,7 +10,11 @@ const Landing = () => {
       </nav>
       <div className="container page">
         {/* info */}
-        <div className="info"></div>
+        <div className="info">
+          <h1>
+            job <span>tracking</span> app
+          </h1>
+        </div>
         <img src={main} alt="job hunt" className="img main-img" />
       </div>
     </main>
