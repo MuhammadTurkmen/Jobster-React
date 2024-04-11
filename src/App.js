@@ -16,6 +16,7 @@ function App() {
   return (
     <div>
       <Button>Click me</Button>
+      <SecondButton>Click me</SecondButton>
       <Landing />
     </div>
   );
