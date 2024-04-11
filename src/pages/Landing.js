@@ -19,6 +19,7 @@ const Landing = () => {
             aliquid, sit dolor distinctio cumque fugiat iste eveniet explicabo
             rem ad.
           </p>
+          <button className="btn btn-herp">Login/Register</button>
         </div>
         <img src={main} alt="job hunt" className="img main-img" />
       </div>
