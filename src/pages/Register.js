@@ -40,6 +40,13 @@ const Register = () => {
           value={values.email}
           handleChange={handleChange}
         />
+        {/* password field */}
+        <FormRow
+          type="password"
+          name="password"
+          value={values.password}
+          handleChange={handleChange}
+        />
         <button type="submit" className="btn btn-block">
           submit
         </button>
