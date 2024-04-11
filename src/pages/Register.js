@@ -33,6 +33,13 @@ const Register = () => {
           value={values.name}
           handleChange={handleChange}
         />
+        {/* email field */}
+        <FormRow
+          type="email"
+          name="email"
+          value={values.email}
+          handleChange={handleChange}
+        />
         <button type="submit" className="btn btn-block">
           submit
         </button>
