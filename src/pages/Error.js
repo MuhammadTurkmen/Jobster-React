@@ -4,7 +4,7 @@ import Wrapper from "../assets/wrappers/ErrorPage";
 import React from "react";
 
 const Error = () => {
-  return <div>Error</div>;
+  return <Wrapper className="full-page"></Wrapper>;
 };
 
 export default Error;
