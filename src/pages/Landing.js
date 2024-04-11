@@ -44,6 +44,9 @@ const Wrapper = styled.main`
   }
   h1 {
     font-weight: 700;
+    span {
+      color: var(--primary-500);
+    }
   }
 `;
 
