@@ -56,6 +56,8 @@ const Wrapper = styled.main`
   .main-img {
     display: none;
   }
+  @media (min-width: 992px) {
+  }
 `;
 
 export default Landing;
