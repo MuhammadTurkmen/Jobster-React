@@ -42,6 +42,9 @@ const Wrapper = styled.main`
     display: grid;
     align-items: center;
   }
+  h1 {
+    font-weight: 700;
+  }
 `;
 
 export default Landing;
