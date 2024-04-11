@@ -14,6 +14,11 @@ const Landing = () => {
           <h1>
             job <span>tracking</span> app
           </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo
+            aliquid, sit dolor distinctio cumque fugiat iste eveniet explicabo
+            rem ad.
+          </p>
         </div>
         <img src={main} alt="job hunt" className="img main-img" />
       </div>
