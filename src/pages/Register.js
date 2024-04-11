@@ -23,7 +23,10 @@ const Register = () => {
 
   return (
     <Wrapper className="full-page">
-      <form className="form" onSubmit={onSubmit}></form>
+      <form className="form" onSubmit={onSubmit}>
+        <Logo />
+        <h3>Login</h3>
+      </form>
     </Wrapper>
   );
 };
