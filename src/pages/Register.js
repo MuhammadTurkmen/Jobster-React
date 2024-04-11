@@ -11,6 +11,7 @@ const initialState = {
 };
 
 const Register = () => {
+  const [values, setValues] = useState(initialState);
   return <div>Register</div>;
 };
 
