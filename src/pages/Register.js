@@ -21,7 +21,11 @@ const Register = () => {
     console.log(e.target);
   };
 
-  return <div>Register</div>;
+  return (
+    <Wrapper className="full-page">
+      <form className="form" onSubmit={onSubmit}></form>
+    </Wrapper>
+  );
 };
 
 export default Register;
