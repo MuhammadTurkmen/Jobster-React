@@ -13,10 +13,10 @@ const initialState = {
 const Register = () => {
   const [values, setValues] = useState(initialState);
 
-  const handleChange = () => {
+  const handleChange = (e) => {
     console.log(e.target);
   };
-  const onSubmit = () => {
+  const onSubmit = (e) => {
     e.preventDefault();
     console.log(e.target);
   };
