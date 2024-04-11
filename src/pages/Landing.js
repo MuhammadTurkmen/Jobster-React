@@ -49,7 +49,7 @@ const Wrapper = styled.main`
     }
   }
   p {
-    color: var(--gray-600);
+    color: var(--grey-600);
   }
 `;
 
