@@ -7,6 +7,7 @@ const initialState = {
   name: "",
   email: "",
   password: "",
+  isMember: true,
 };
 
 const Register = () => {
