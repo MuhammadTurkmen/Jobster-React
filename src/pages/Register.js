@@ -24,11 +24,12 @@ const Register = () => {
   const toggleMember = () => {
     setValues({ ...values, isMember: !values.isMember });
   };
+
   return (
     <Wrapper className="full-page">
       <form className="form" onSubmit={onSubmit}>
         <Logo />
-        <h3>Login</h3>
+        <h3>{values.isMember ? "Login" : "Register"}</h3>
         {/* name field */}
         <FormRow
           type="text"
@@ -53,6 +54,12 @@ const Register = () => {
         <button type="submit" className="btn btn-block">
           submit
         </button>
+        <p>
+          testing
+          <button type="button" onClick={toggleMember}>
+            testing
+          </button>
+        </p>
       </form>
     </Wrapper>
   );
