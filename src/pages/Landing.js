@@ -28,6 +28,11 @@ const Landing = () => {
   );
 };
 
-const Wrapper = styled.main``;
+const Wrapper = styled.main`
+  nav {
+    width: var(--fluid-width);
+    max-width: var(--max-width);
+  }
+`;
 
 export default Landing;
