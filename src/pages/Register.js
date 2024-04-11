@@ -28,7 +28,7 @@ const Register = () => {
         <h3>Login</h3>
         {/* name field */}
         <div className="form-row">
-          <label htmlFor="name" className="form-lable">
+          <label htmlFor="name" className="form-label">
             name
           </label>
           <input
