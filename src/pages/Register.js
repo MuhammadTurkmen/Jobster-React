@@ -31,6 +31,7 @@ const Register = () => {
           <label htmlFor="name" className="form-lable">
             name
           </label>
+          <input type="text" />
         </div>
       </form>
     </Wrapper>
