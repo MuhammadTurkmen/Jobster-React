@@ -12,6 +12,14 @@ const initialState = {
 
 const Register = () => {
   const [values, setValues] = useState(initialState);
+
+  const handleChange = () => {
+    console.log(e.target);
+  };
+  const onSubmit = () => {
+    console.log(e.target);
+  };
+
   return <div>Register</div>;
 };
 
