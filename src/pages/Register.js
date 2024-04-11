@@ -31,7 +31,13 @@ const Register = () => {
           <label htmlFor="name" className="form-lable">
             name
           </label>
-          <input type="text" />
+          <input
+            type="text"
+            name="name"
+            value={values.name}
+            onChange={handleChange}
+            className="form-input"
+          />
         </div>
       </form>
     </Wrapper>
