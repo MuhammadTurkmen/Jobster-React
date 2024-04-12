@@ -39,7 +39,7 @@ const userSlice = createSlice({
       state.user = user;
       toast.success(`Hello There ${user.name}`);
     },
-    [registerUser.rejected]: (state) => {
+    [registerUser.rejected]: (state, { payload }) => {
       state.isLoading = false;
       toast.error(payload);
     },
