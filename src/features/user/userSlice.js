@@ -13,6 +13,13 @@ export const registerUser = createAsyncThunk(
   }
 );
 
+export const loginUser = createAsyncThunk(
+  "user/loginUser",
+  async (user, thunkAPI) => {
+    console.log(`Login User : ${user}`);
+  }
+);
+
 const userSlice = createSlice({
   name: "user",
   initialState,
