@@ -1,6 +1,5 @@
 import React from "react";
 import Wrapper from "../assets/wrappers/Navbar";
-import Wrapper from "../assets/wrappers/Navbar";
 import { FaAlignLeft, FaUserCircle, FaCaretDown } from "react-icons/fa";
 import Logo from "./Logo";
 import { useState } from "react";
@@ -17,7 +16,9 @@ const Navbar = () => {
           type="button"
           className="toggle-btn"
           onClick={() => console.log("toggle-sidebar")}
-        ></button>
+        >
+          <FaAlignLeft />
+        </button>
       </div>
     </Wrapper>
   );
