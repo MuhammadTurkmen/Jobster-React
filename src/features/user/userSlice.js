@@ -4,6 +4,7 @@ import customFetch from "../../utils/axios";
 import {
   addUerToLocalSrorage,
   getUserFromLocalStorage,
+  removeUserFromLocalStorage,
 } from "../../utils/localStorage";
 
 const initialState = {
