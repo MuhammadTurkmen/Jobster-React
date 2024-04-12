@@ -38,7 +38,9 @@ const Navbar = () => {
               type="button"
               className="dropdown-btn"
               onClick={() => console.log("logout user")}
-            ></button>
+            >
+              logout
+            </button>
           </div>
         </div>
       </div>
