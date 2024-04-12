@@ -9,14 +9,14 @@ const initialState = {
 export const registerUser = createAsyncThunk(
   "user/registerUser",
   async (user, thunkAPI) => {
-    console.log(`Register User : ${user}`);
+    console.log(`Register User : ${JSON.stringify(user)}`);
   }
 );
 
 export const loginUser = createAsyncThunk(
   "user/loginUser",
   async (user, thunkAPI) => {
-    console.log(`Login User : ${user}`);
+    console.log(`Login User : ${JSON.stringify(user)}`);
   }
 );
 
