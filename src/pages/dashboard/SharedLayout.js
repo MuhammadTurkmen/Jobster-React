@@ -1,5 +1,6 @@
 import React from "react";
-
+import { Outlet } from "react-router-dom";
+import { BigSidebar, Navbar, SmallSidebar } from "../../components";
 const SharedLayout = () => {
   return <h1>SharedLayout</h1>;
 };
