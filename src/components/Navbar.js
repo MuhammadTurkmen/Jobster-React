@@ -37,7 +37,7 @@ const Navbar = () => {
             <button
               type="button"
               className="dropdown-btn"
-              onClick={() => console.log("toggle-logout dropdow")}
+              onClick={() => console.log("logout user")}
             ></button>
           </div>
         </div>
