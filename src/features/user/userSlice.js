@@ -77,4 +77,5 @@ const userSlice = createSlice({
   },
 });
 
+export const { toggleSidebar } = userSlice.actions;
 export default userSlice.reducer;
