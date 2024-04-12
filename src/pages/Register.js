@@ -4,7 +4,7 @@ import Wrapper from "../assets/wrappers/RegisterPage";
 import { toast } from "react-toastify";
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { loginUser } from "../features/user/userSlice";
+import { loginUser, registerUser } from "../features/user/userSlice";
 
 const initialState = {
   name: "",
@@ -33,6 +33,7 @@ const Register = () => {
       dispatch(loginUser({ email: email, password: password }));
       return;
     }
+    dispatch(registerUser({ name, email, password }));
   };
 
   const toggleMember = () => {
