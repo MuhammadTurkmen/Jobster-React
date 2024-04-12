@@ -23,7 +23,7 @@ const Register = () => {
     e.preventDefault();
     const { name, email, password, isMember } = values;
     if (!email || !password || (!isMember && !name)) {
-      console.log("please fill out all fields");
+      toast.error("please fill out all fields");
     }
   };
 
