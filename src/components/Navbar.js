@@ -11,17 +11,13 @@ const Navbar = () => {
   const dispatch = useDispatch();
 
   const toggle = () => {
-    dispatch(toggleSidebar);
+    dispatch(toggleSidebar());
   };
 
   return (
     <Wrapper>
       <div className="nav-center">
-        <button
-          type="button"
-          className="toggle-btn"
-          onClick={() => console.log("toggle-sidebar")}
-        >
+        <button type="button" className="toggle-btn" onClick={toggle}>
           <FaAlignLeft />
         </button>
         <div>
