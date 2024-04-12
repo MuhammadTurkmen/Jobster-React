@@ -31,6 +31,7 @@ const Register = () => {
     }
     if (isMember) {
       dispatch(loginUser({ email: email, password: password }));
+      return;
     }
   };
 
