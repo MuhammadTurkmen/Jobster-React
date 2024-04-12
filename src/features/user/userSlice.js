@@ -33,6 +33,12 @@ const userSlice = createSlice({
     [registerUser.pending]: (state) => {
       state.isLoading = true;
     },
+    [registerUser.fulfilled]: (state) => {
+      state.isLoading = true;
+    },
+    [registerUser.rejected]: (state) => {
+      state.isLoading = true;
+    },
   },
 });
 
