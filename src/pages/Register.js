@@ -4,6 +4,7 @@ import Wrapper from "../assets/wrappers/RegisterPage";
 import { toast } from "react-toastify";
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
+import { loginUser } from "../features/user/userSlice";
 
 const initialState = {
   name: "",
@@ -26,6 +27,10 @@ const Register = () => {
     const { name, email, password, isMember } = values;
     if (!email || !password || (!isMember && !name)) {
       toast.error("please fill out all fields");
+      return;
+    }
+    if (isMember) {
+      dispatch(loginUser({ email: email, password: password }));
     }
   };
 
