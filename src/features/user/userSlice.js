@@ -12,7 +12,7 @@ export const registerUser = createAsyncThunk(
   async (user, thunkAPI) => {
     try {
       const resp = await customFetch.post("/auth/register", user);
-      console.log(resp);
+      return resp.data;
     } catch (error) {
       toast.error(error.response.data.msg);
       console.log(error.response);
