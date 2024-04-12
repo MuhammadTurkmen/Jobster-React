@@ -28,7 +28,11 @@ const Navbar = () => {
             type="button"
             className="btn"
             onClick={() => console.log("toggle-logout dropdow")}
-          ></button>
+          >
+            <FaUserCircle />
+            {user?.name}
+            <FaCaretDown />
+          </button>
         </div>
       </div>
     </Wrapper>
