@@ -9,9 +9,12 @@ import { useDispatch, useSelector } from "react-redux";
 const Navbar = () => {
   const { user } = useSelector((store) => store.user);
   const dispatch = useDispatch();
+
   return (
     <Wrapper>
-      <h2>Navbar</h2>
+      <div className="nav-center">
+        <button type="button" className="toggle-btn"></button>
+      </div>
     </Wrapper>
   );
 };
