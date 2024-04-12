@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Logo, FormRow } from "../components";
 import Wrapper from "../assets/wrappers/RegisterPage";
-import { toast } from "react-toastify/dist/components";
+import { toast } from "react-toastify";
 import React from "react";
 
 const initialState = {
