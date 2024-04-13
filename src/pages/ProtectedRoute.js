@@ -3,7 +3,7 @@ import { UseSelector } from "react-redux";
 
 import React from "react";
 
-const ProtectedRoute = () => {
+const ProtectedRoute = ({ children }) => {
   return <div>ProtectedRoute</div>;
 };
 
